@@ -2,6 +2,15 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+# Set custom title and favicon
+st.set_page_config(
+    page_title="IPL Oracle",
+    page_icon="🏏",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+
 teams = ['Sunrisers Hyderabad',
  'Mumbai Indians',
  'Royal Challengers Bangalore',
